@@ -1,35 +1,36 @@
 import styled from 'styled-components';
 
-const ContainerHeader = styled.div`
-  width: 100%;
+const LogoWelcome = styled.aside`
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  background: #00B4DB;
-  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
-  background: linear-gradient(to right, #0083B0, #00B4DB);
-
-
+  justify-content:center;
+  margin-right: 15rem;
+  
   h1{
     font-size: 2.5rem;
   }
-  
-  p{
-    font-size: 2rem;
-    margin-left: 16rem;
-  }
-`;
 
-const Logo = styled.a`
-display: flex;
-flex-direction: column;
-justify-content: center;
+  a{
+    align-self: center;
+  }
 
   img {
-    width: 3.5rem;
-    margin: 1rem;
-    align-self: flex-start;
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    margin-right: 1rem;
+  }  
+`;
+
+const ContainerHeader = styled.div`
+  display: flex;
+  flex-direction: row;
+  border: solid 1px;
+  justify-content: flex-start;
+
+  p{
+    font-size: 2rem;
+    align-self: center;
   }
 `;
-export {Logo, ContainerHeader}
+
+export { ContainerHeader, LogoWelcome }

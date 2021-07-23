@@ -6,7 +6,14 @@ export default function NavBar() {
     <div>
       <ContainerNavBar>
 
-      Isso vai ser a Navegação
+        <a href="#/">
+          Início
+        </a>
+
+        <a href="#users">
+          Usuários
+        </a>
+         
       </ContainerNavBar>
     </div>
   )
