@@ -30,23 +30,12 @@ const ContainerHeader = styled.div`
   background: -webkit-linear-gradient(to top, #274046, #E6DADA); 
   background: linear-gradient(to top, #274046, #E6DADA);
   position: static;
-  border: 1px solid;
+  /* border: 1px solid; */
 
   p{
     font-size: 2rem;
     align-self: center;
   }
-
-  @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
 `;
 
 export { ContainerHeader, LogoWelcome }

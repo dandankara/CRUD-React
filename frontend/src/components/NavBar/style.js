@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: block;
-  position: fixed;
+  /* position: fixed; */
   width: 15%;
   height: 100vh;
   font-size: 0.65em;
-  border: 1px solid;
+  /* border: 1px solid; */
 `;
 
 const DivLinks = styled.div`
