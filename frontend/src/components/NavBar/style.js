@@ -1,25 +1,21 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  display: block;
-  /* position: fixed; */
-  width: 15%;
-  height: 100vh;
-  font-size: 0.65em;
-  /* border: 1px solid; */
-`;
-
-const DivLinks = styled.div`
+  background-color: red;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
-  padding: 1rem;
-  width: 100%;
 
-  a {
-    text-decoration: none;
-    display: block;
+  float: left;
+
+  a{
     padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  a:hover{
+    background-color: #f1f1f1;
   }
 `;
-export { Container, DivLinks}
+export { Container}

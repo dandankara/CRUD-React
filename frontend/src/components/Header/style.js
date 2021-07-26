@@ -24,12 +24,10 @@ const LogoWelcome = styled.aside`
 const ContainerHeader = styled.div`
   display: flex;
   flex-direction: row;
-  overflow:hidden;
   padding: 0.5rem;
   background: #E6DADA;
   background: -webkit-linear-gradient(to top, #274046, #E6DADA); 
   background: linear-gradient(to top, #274046, #E6DADA);
-  position: static;
   /* border: 1px solid; */
 
   p{

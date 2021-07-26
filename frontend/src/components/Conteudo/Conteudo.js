@@ -4,7 +4,7 @@ import { MainContent } from './style'
 export default function Conteudo() {
   return (
     <MainContent>
-        Vai ter um componente filho por aqui
+        Isso é pra ser o main conteudo
     </MainContent>
   )
 }
