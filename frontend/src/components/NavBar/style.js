@@ -1,20 +1,25 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const ContainerNavBar = styled.div`
-display: flex;
-flex-direction: column;
-height: 100%;
-width: 150px;
-position: fixed;
-z-index: 1;
-padding: 1rem;
-border: solid 1px;
-
-a {
+const Container = styled.div`
   display: block;
-  text-decoration: none;
-  padding:1rem;
-}
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+  font-size: 0.65em;
+  border: 1px solid;
 `;
 
-export {ContainerNavBar}
+const DivLinks = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+  }
+`;
+export { Container, DivLinks}

@@ -1,11 +1,12 @@
 import React from 'react'
-import { ContainerNavBar } from './style'
+import { Container, DivLinks } from './style';;
+
 
 export default function NavBar() {
   return (
-    <div>
-      <ContainerNavBar>
+    <Container>
 
+      <DivLinks>
         <a href="#/">
           Início
         </a>
@@ -13,8 +14,8 @@ export default function NavBar() {
         <a href="#users">
           Usuários
         </a>
-         
-      </ContainerNavBar>
-    </div>
+      </DivLinks>
+
+    </Container>
   )
 }
