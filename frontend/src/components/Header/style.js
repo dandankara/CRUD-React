@@ -1,39 +1,28 @@
 import styled from 'styled-components';
 
-const LogoWelcome = styled.aside`
-  display: flex;
-  justify-content:center;
-  margin-right: 15rem;
-  
-  h1{
-    font-size: 2.5rem;
-  }
-
-  a{
-    align-self: center;
-  }
-
-  img {
-    width: 80px;
-    height: 80px;
-    align-self: center;
-    margin-right: 1rem;
-  }  
-`;
-
 const ContainerHeader = styled.div`
+  /* background-color: red; */
   display: flex;
   flex-direction: row;
-  padding: 0.5rem;
-  background: #E6DADA;
-  background: -webkit-linear-gradient(to top, #274046, #E6DADA); 
-  background: linear-gradient(to top, #274046, #E6DADA);
-  /* border: 1px solid; */
+  align-items: center;
+  justify-content: center;
+
+  background: #BBD2C5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  img{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+  }
 
   p{
     font-size: 2rem;
-    align-self: center;
+    margin-left: 1rem;
   }
+
 `;
 
-export { ContainerHeader, LogoWelcome }
+export { ContainerHeader }

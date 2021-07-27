@@ -1,15 +1,14 @@
-import Conteudo from "./components/Conteudo/Conteudo";
 import Header from "./components/Header/Header";
-import NavBar from "./components/NavBar/NavBar";
+import SideBarContent from "./components/SideBarContent/SideBarContent";
+
 
 function App() {
   return (
-    <>
-      <Header />
-      <NavBar />
-      <Conteudo />
+      <>
+        <Header />
+        <SideBarContent />
+      </>
 
-    </>
   );
 }
 
